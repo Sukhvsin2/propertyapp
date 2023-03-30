@@ -26,7 +26,7 @@ function mainPanel({d}) {
                 <div className='activeInfo text-black p-4'>
                     <span className='font-extrathin text-gray-500'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo risus a mattis semper. Integer placerat volutpat odio, at pulvinar tortor laoreet mattis. Proin aliquet semper tempus.</span>
                     <div className='details mt-4'>
-                        <div className='flex justify-between font-normal'><span>Tax</span> <span>{d == undefined ? "" : `$${d.tax}`}</span></div>
+                        <div className='flex justify-between font-normal'><span>Tax</span> <span>{d == undefined ? "loading..." : `$${d.tax}`}</span></div>
                     </div>
                     <div className="divider"></div>
                     <div className='details mt-4'>
@@ -34,7 +34,7 @@ function mainPanel({d}) {
                     </div>
                     <div className="divider"></div>
                     <div className='details mt-4'>
-                        <div className='flex justify-between font-normal'><span>Building Age</span> <span>{d == undefined ? "" : `${d.buildingAge} Years`}</span></div>
+                        <div className='flex justify-between font-normal'><span>Building Age</span> <span>{d == undefined ? "loading..." : `${d.buildingAge} Years`}</span></div>
                     </div>
                     <div className="divider"></div>
                     <div className='details mt-4'>
