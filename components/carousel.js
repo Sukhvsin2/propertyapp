@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 
-function carousel() {
+function Carousel() {
   const [scroll, setScroll] = useState(1)
 
   return (
@@ -36,4 +36,4 @@ function carousel() {
   )
 }
 
-export default carousel
+export default Carousel
